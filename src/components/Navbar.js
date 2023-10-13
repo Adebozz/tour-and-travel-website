@@ -1,5 +1,6 @@
 import { Component } from "react";
 import "./Navbar.css";
+// import {Link} from "react-router-dom";
 
 class Navbar extends Component{
     render(){
@@ -9,10 +10,13 @@ class Navbar extends Component{
 
                 <ul className="nav-menu">
                     <li>
-                        <Link></Link>
+                        <a>
+                        <i class="fa-solid fa-house-user fa-flip"></i>Home </a>
                     </li>
                 </ul>
             </nav>
         )
     }
 }
+
+export default Navbar;
