@@ -4,7 +4,6 @@ import About from './routes/About';
 import { Route, Routes } from 'react-router-dom';
 import Contact from './routes/Contacts';
 import Service from './routes/Services';
-// import { Routes } from 'react-router-dom';
 
 
 function App() {
