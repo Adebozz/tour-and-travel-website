@@ -18,7 +18,7 @@ function App() {
         <Route path="/service" element={<Service/>} />
         </Routes>
 
-        <Navbar />
+       
        
       
     </div>
