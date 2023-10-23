@@ -4,7 +4,7 @@ function Service (){
     return(
         <>
         <Navbar/>
-         <h1>This is Service</h1>
+         <h1>This is Service page</h1>
         </>
     )
 }
