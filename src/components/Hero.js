@@ -7,8 +7,8 @@ function Hero(props) {
       <img alt='HeroImg' src={props.heroImg} />
 
       <div>
-        <h1>Your Journey Your Story</h1>
-        <p>Choose Your Favourite Destination. </p>
+        <h1>{props.title}</h1>
+        <p>{props.text} </p>
         <a href='/'>
           Travel Plan
         </a>
