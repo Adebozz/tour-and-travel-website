@@ -12,6 +12,7 @@
     left: 50%;
     transform: translate(-50%);
     z-index: 99999;
+    background-color: #fff;
 }
 
 .navbar-logo{
@@ -27,6 +28,7 @@
     gap: 10px;
     list-style: none;
     align-items: center;
+    
 }
 
 .nav-links{
@@ -96,6 +98,7 @@ button:hover{
         margin: 0;
         transition: 0.3s ease-in-out;
         border-radius: 13px;
+        color: aliceblue;
     }
 
     .nav-menu.active{
@@ -110,10 +113,15 @@ button:hover{
         width: 100%;
         font-size: 1.2rem;
         padding: 2rem 0;
+        color: #fff;
        
     }
 
     .nav-links:hover {
+        background: #01959a;
+        transition: none;
+    }
+    .nav-links:active {
         background: #01959a;
         transition: none;
     }
