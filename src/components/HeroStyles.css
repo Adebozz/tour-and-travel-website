@@ -5,6 +5,12 @@
 
 }
 
+.hero-mid{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
+
 img{
     width: 100%;
     height: 100%;
