@@ -37,7 +37,6 @@ const Footer = () => {
             <a href="/">GithubIssues</a>
             <a href="/">Projects</a>
             <a href="/">Twitter</a>
-            <a href="/">All Versions</a>
             
         </div>
         <div>
