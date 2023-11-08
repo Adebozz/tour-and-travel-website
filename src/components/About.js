@@ -4,7 +4,7 @@ import "./AboutStyle.css"
 const About = () => {
   return (
     <div>
-      
+      Welcome 
     </div>
   )
 }
